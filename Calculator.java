@@ -16,6 +16,9 @@ public class Calculator {
             case '-': result = num1 - num2; break;
             case '*': result = num1 * num2; break;
             case '/': result = num1 / num2; break;
+            case '%': result = num1 % num2; break;
+            case '^': result = Math.pow(num1, num2); break;
+
             default: System.out.println("Invalid operator");
         }
 
